@@ -5,9 +5,9 @@ var morgan = require('morgan');//morgan is the express middleware logger
 var bodyParser = require('body-parser');// for parsing json requset
 
 //..............Load Config Vars.................
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
-
+console.log(port);
 //...........Load in middleware................
 app.use(morgan('dev')); // log all request and errors 
 app.use(bodyParser.json()); //pareses json reuest
