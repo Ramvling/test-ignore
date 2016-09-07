@@ -1,0 +1,29 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi" : [2, "always"],
+    "no-console": 0,
+    "no-unused-vars": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "angular": true,
+    "ReactDOM": true,
+    "React": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+    "classes": true
+  },
+  "plugins": ["react"]
+}

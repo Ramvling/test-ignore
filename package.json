@@ -1,0 +1,25 @@
+{
+  "name": "report-web-dashboard",
+  "version": "1.0.0",
+  "description": "Web interface for TPS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinktt/react-it-up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinktt/react-it-up/issues"
+  },
+  "homepage": "https://github.com/thinktt/react-it-up#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
